@@ -2,11 +2,11 @@ import streamlit as st
 from streamlit_folium import folium_static
 import geemap.eefolium as geemap
 import ee
-import os
 
-os.environ["EARTHENGINE_TOKEN"] == st.secrets["EARTHENGINE_TOKEN"]
+# os.environ["EARTHENGINE_TOKEN"] == st.secrets["EARTHENGINE_TOKEN"]
 
-"# streamlit-geemap"
+"# streamlit geemap demo"
+st.markdown('Source code: <https://github.com/giswqs/geemap-streamlit/blob/main/geemap_app.py>')
 
 with st.echo():
     import streamlit as st
