@@ -2,3 +2,4 @@ streamlit
 streamlit-folium
 geemap
 leafmap
+click==8.1.0
